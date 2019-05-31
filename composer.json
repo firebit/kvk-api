@@ -1,0 +1,22 @@
+{
+    "name": "firebit/kvk-php",
+    "description": "Package for the KvK API",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jordy Alkema",
+            "email": "jordy@firebit.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Firebit\\kvkAPI\\": "src/"
+        }
+    }
+}

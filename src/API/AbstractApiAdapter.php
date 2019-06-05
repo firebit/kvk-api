@@ -8,6 +8,14 @@ abstract class AbstractApiAdapter
 
     abstract public function search(array $data, string $api_key);
 
+    /**
+     * Used for performing get requests to the API
+     *
+     * @param string $url
+     * @param array $data
+     * @param array $headers
+     * @return array
+     */
     protected function get(string $url, array $data = [], array $headers = []){
         // Get cURL resource
         $curl = curl_init();

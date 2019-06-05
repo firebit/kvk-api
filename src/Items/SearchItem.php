@@ -2,6 +2,12 @@
 namespace Firebit\kvkAPI\Items;
 
 
+/**
+ * Model for a search item
+ *
+ * Class SearchItem
+ * @package Firebit\kvkAPI\Items
+ */
 class SearchItem extends BaseItem
 {
     public $kvk_number;

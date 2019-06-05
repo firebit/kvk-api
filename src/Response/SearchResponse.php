@@ -5,6 +5,12 @@ namespace Firebit\kvkAPI\Response;
 use Firebit\kvkAPI\Items\SearchItem;
 use Firebit\kvkAPI\KvKClient;
 
+/**
+ * Response from the Search Route
+ *
+ * Class SearchResponse
+ * @package Firebit\kvkAPI\Response
+ */
 class SearchResponse extends BaseResponse
 {
 

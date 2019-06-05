@@ -4,6 +4,12 @@ namespace Firebit\kvkAPI\Response;
 
 use Firebit\kvkAPI\KvKClient;
 
+/**
+ * The base for all responses from the API
+ *
+ * Class BaseResponse
+ * @package Firebit\kvkAPI\Response
+ */
 class BaseResponse
 {
     protected $kvk;

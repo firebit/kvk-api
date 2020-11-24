@@ -3,7 +3,7 @@
     "description": "Package for the KvK API",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "^6.3",
+        "guzzlehttp/guzzle": "^7.0",
         "ext-json": "*",
         "ext-curl": "*"
     },
